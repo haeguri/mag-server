@@ -1,2 +1,0 @@
-2015-07-11 05:41:00,059 [INFO] (3506 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 675c0b16-278f-11e5-b4d8-9b8ef429365e
-2015-07-11 05:41:00,144 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-version-deployment.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip

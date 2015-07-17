@@ -1,3 +1,0 @@
-[Wed Jul 15 11:20:53.748581 2015] [so:warn] [pid 3033] AH01574: module wsgi_module is already loaded, skipping
-[Wed Jul 15 16:10:47.781843 2015] [so:warn] [pid 29073] AH01574: module wsgi_module is already loaded, skipping
-[Wed Jul 15 16:12:56.083963 2015] [so:warn] [pid 29468] AH01574: module wsgi_module is already loaded, skipping

@@ -1,6 +1,0 @@
-2015-07-11 05:28:32,696 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-ap-northeast-1-085326901678,resources/environments/e-ih6mc5erwn/_runtime/versions/manifest_1436592357898> from bucket elasticbeanstalk-ap-northeast-1-085326901678 and prefix resources/environments/e-ih6mc5erwn/_runtime/versions/
-2015-07-11 05:28:32,759 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
-2015-07-11 05:28:33,868 [INFO] Downloaded version label app-150711_142532 from s3 key <Key: elasticbeanstalk-ap-northeast-1-085326901678,resources/environments/e-ih6mc5erwn/_runtime/_versions/ladio_test2/app-150711_142532>
-2015-07-11 05:38:37,488 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-ih6mc5erwn/_runtime/versions/manifest_1436593113019
-2015-07-11 05:38:37,541 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
-2015-07-11 05:38:38,376 [INFO] Downloaded version label app-150711_143746 from s3 key <Key: elasticbeanstalk-ap-northeast-1-085326901678,resources/environments/e-ih6mc5erwn/_runtime/_versions/ladio_test2/app-150711_143746>
