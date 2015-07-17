@@ -1,0 +1,13 @@
+<div class="container content-detail">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-preview">
+                <h2 class="post-title">{$ content_detail.content.title $}</h2>
+                <p class="post-meta pull-left"
+                   style="display: block !important;">{$ content_detail.content.created $}</p>
+                <br/>
+                <p class="post-body" ng-bind-html="content_detail.content.body"></p>
+            </div>
+        </div>
+    </div>
+</div>

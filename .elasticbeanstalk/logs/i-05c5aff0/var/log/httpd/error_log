@@ -1,0 +1,13 @@
+[Sat Jul 11 05:29:00.131164 2015] [suexec:notice] [pid 2462] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jul 11 05:29:00.140945 2015] [auth_digest:notice] [pid 2462] AH01757: generating secret for digest authentication ...
+[Sat Jul 11 05:29:00.141428 2015] [lbmethod_heartbeat:notice] [pid 2462] AH02282: No slotmem from mod_heartmonitor
+[Sat Jul 11 05:29:00.142962 2015] [mpm_prefork:notice] [pid 2462] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Sat Jul 11 05:29:00.142976 2015] [core:notice] [pid 2462] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jul 11 05:36:03.945944 2015] [mpm_prefork:notice] [pid 2462] AH00169: caught SIGTERM, shutting down
+[Sat Jul 11 05:36:05.029799 2015] [suexec:notice] [pid 3141] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Sat Jul 11 05:36:05.037884 2015] [so:warn] [pid 3141] AH01574: module wsgi_module is already loaded, skipping
+[Sat Jul 11 05:36:05.039356 2015] [auth_digest:notice] [pid 3141] AH01757: generating secret for digest authentication ...
+[Sat Jul 11 05:36:05.039895 2015] [lbmethod_heartbeat:notice] [pid 3141] AH02282: No slotmem from mod_heartmonitor
+[Sat Jul 11 05:36:05.044755 2015] [mpm_prefork:notice] [pid 3141] AH00163: Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/3.4.3 configured -- resuming normal operations
+[Sat Jul 11 05:36:05.044773 2015] [core:notice] [pid 3141] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sat Jul 11 05:36:07.636429 2015] [:error] [pid 3145] [client 127.0.0.1:35165] Target WSGI script not found or unable to stat: /opt/python/current/app/ladio

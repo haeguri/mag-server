@@ -1,0 +1,26 @@
+2015-07-11 05:41:00,059 [INFO] (3506 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 675c0b16-278f-11e5-b4d8-9b8ef429365e
+2015-07-11 05:41:00,144 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-version-deployment.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,144 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-tools.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,145 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-hup.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,145 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-init-cmd.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,146 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/error_log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,147 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/messages to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,148 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/yum.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,148 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /opt/python/log/supervisord.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,148 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /opt/python/log/httpd.out to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,149 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cloud-init-output.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,149 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/httpd/access_log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,149 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-cfn-init-call.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,149 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cron to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,150 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cfn-init.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,150 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-cfn-init.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,157 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-activity.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,158 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-commandprocessor.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,159 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/cloud-init.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,159 [INFO] (3506 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-publish-logs.log to /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,325 [INFO] (3506 MainThread) [s3_tools.py-208] [root s3_tools _process_result] Received status code 200 with text: 
+2015-07-11 05:41:00,325 [INFO] (3506 MainThread) [upload_tools.py-372] [root upload_tools __exit__] Successfully uploaded archive file /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip to s3 at location resources/environments/logs/bundle/e-ih6mc5erwn/i-05c5aff0/BundleLogs-1436593260159.zip
+2015-07-11 05:41:00,325 [INFO] (3506 MainThread) [upload_tools.py-381] [root upload_tools __exit__] Successfully deleted archive file /tmp/BundleLogs-675c0b16-278f-11e5-b4d8-9b8ef429365e.zip
+2015-07-11 05:41:00,325 [INFO] (3506 MainThread) [bundleLogs.py-82] [root bundleLogs main] [Instance: i-05c5aff0] Successfully finished bundling 19 log(s)
+2015-07-14 18:06:55,242 [INFO] (22962 MainThread) [bundleLogs.py-54] [root bundleLogs main] Starting bundle logs task with batch id 1aa19f9b-2a53-11e5-a433-17a42bc445eb
+2015-07-14 18:06:55,295 [INFO] (22962 MainThread) [upload_tools.py-341] [root upload_tools execute] Successfully archived file /var/log/eb-version-deployment.log to /tmp/BundleLogs-1aa19f9b-2a53-11e5-a433-17a42bc445eb.zip

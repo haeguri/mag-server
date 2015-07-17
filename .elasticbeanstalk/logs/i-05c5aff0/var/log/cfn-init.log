@@ -1,0 +1,112 @@
+2015-07-11 05:28:28,680 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:28:28,716 [INFO] Running configSets: _OnInstanceBoot
+2015-07-11 05:28:28,717 [INFO] Running configSet _OnInstanceBoot
+2015-07-11 05:28:28,721 [INFO] Running config AWSEBBaseConfig
+2015-07-11 05:28:28,726 [INFO] Command clearbackupfiles succeeded
+2015-07-11 05:28:28,735 [INFO] Running config AWSEBMessageOfTheDay
+2015-07-11 05:28:28,738 [INFO] Command 01clearoriginal succeeded
+2015-07-11 05:28:28,744 [INFO] Command 02createbanner succeeded
+2015-07-11 05:28:28,755 [INFO] Command 03updatebanner succeeded
+2015-07-11 05:28:28,763 [INFO] Running config Infra-InstallBaseHooksPkg
+2015-07-11 05:28:28,950 [INFO] Running config Infra-InstallContainerHooksPkg
+2015-07-11 05:28:29,727 [INFO] Running config Infra-WriteLeaderTestScript
+2015-07-11 05:28:29,734 [INFO] Running config AWSEBLockCfnBootstap
+2015-07-11 05:28:29,738 [INFO] Command add_lock succeeded
+2015-07-11 05:28:29,746 [INFO] Running config Infra-WriteTailLogsConf
+2015-07-11 05:28:29,754 [INFO] Running config Infra-WriteSystemTailLogsConf
+2015-07-11 05:28:29,762 [INFO] Running config Infra-WriteBundleLogsConf
+2015-07-11 05:28:29,767 [INFO] Running config Infra-WritePublishLogsConf
+2015-07-11 05:28:29,771 [INFO] Running config Infra-WritePublishLogsCron
+2015-07-11 05:28:29,773 [INFO] ConfigSets completed
+2015-07-11 05:28:29,780 [INFO] -----------------------Build complete-----------------------
+2015-07-11 05:28:31,636 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:28:31,776 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-11 05:28:31,777 [INFO] Running configSet Infra-WriteApplication2
+2015-07-11 05:28:31,778 [INFO] Running config Infra-WriteApplication2
+2015-07-11 05:28:33,880 [INFO] Command 01downloadVersion succeeded
+2015-07-11 05:28:33,883 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-11 05:28:33,885 [INFO] ConfigSets completed
+2015-07-11 05:28:33,892 [INFO] -----------------------Build complete-----------------------
+2015-07-11 05:29:12,402 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:29:12,421 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-11 05:29:12,422 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-11 05:29:12,422 [INFO] Running config prebuild_0_ladio_test2
+2015-07-11 05:29:55,807 [INFO] Yum installed [u'postgresql93-devel', u'git']
+2015-07-11 05:29:55,810 [INFO] ConfigSets completed
+2015-07-11 05:29:55,816 [INFO] -----------------------Build complete-----------------------
+2015-07-11 05:31:12,137 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:31:13,255 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-11 05:31:13,256 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-11 05:31:13,257 [INFO] Running config postbuild_0_ladio_test2
+2015-07-11 05:31:14,313 [ERROR] Command 01_migration (source /opt/python/run/venv/bin/activate && python ladio/manage.py makemigrations main) failed
+2015-07-11 05:31:14,313 [ERROR] Error encountered during build of postbuild_0_ladio_test2: Command 01_migration failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 517, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 248, in build
+    changes['commands'] = CommandTool().apply(self._config.commands)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/command_tool.py", line 113, in apply
+    raise ToolError(u"Command %s failed" % name)
+ToolError: Command 01_migration failed
+2015-07-11 05:31:14,315 [ERROR] -----------------------BUILD FAILED!------------------------
+2015-07-11 05:31:14,315 [ERROR] Unhandled exception during build: Command 01_migration failed
+Traceback (most recent call last):
+  File "/opt/aws/bin/cfn-init", line 123, in <module>
+    worklog.build(detail.metadata, configSets)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 118, in build
+    Contractor(metadata).build(configSets, self)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 505, in build
+    self.run_config(config, worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 517, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 248, in build
+    changes['commands'] = CommandTool().apply(self._config.commands)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/command_tool.py", line 113, in apply
+    raise ToolError(u"Command %s failed" % name)
+ToolError: Command 01_migration failed
+2015-07-11 05:38:37,183 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:38:37,205 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-11 05:38:37,205 [INFO] Running configSet Infra-WriteApplication2
+2015-07-11 05:38:37,206 [INFO] Running config Infra-WriteApplication2
+2015-07-11 05:38:38,386 [INFO] Command 01downloadVersion succeeded
+2015-07-11 05:38:38,398 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-11 05:38:38,400 [INFO] ConfigSets completed
+2015-07-11 05:38:38,408 [INFO] -----------------------Build complete-----------------------
+2015-07-11 05:38:38,692 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:38:38,708 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-11 05:38:38,708 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-11 05:38:38,709 [INFO] Running config prebuild_0_ladio_test2
+2015-07-11 05:38:39,359 [INFO] ConfigSets completed
+2015-07-11 05:38:39,366 [INFO] -----------------------Build complete-----------------------
+2015-07-11 05:38:43,604 [INFO] -----------------------Starting build-----------------------
+2015-07-11 05:38:43,755 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-11 05:38:43,756 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-11 05:38:43,756 [INFO] Running config postbuild_0_ladio_test2
+2015-07-11 05:38:46,002 [INFO] Command 01_migration succeeded
+2015-07-11 05:38:50,236 [INFO] Command 02_migrate succeeded
+2015-07-11 05:38:52,078 [ERROR] Command 03_createsu (source /opt/python/run/venv/bin/activate && python ladio/manage.py createsu) failed
+2015-07-11 05:38:52,078 [ERROR] Error encountered during build of postbuild_0_ladio_test2: Command 03_createsu failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 517, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 248, in build
+    changes['commands'] = CommandTool().apply(self._config.commands)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/command_tool.py", line 113, in apply
+    raise ToolError(u"Command %s failed" % name)
+ToolError: Command 03_createsu failed
+2015-07-11 05:38:52,079 [ERROR] -----------------------BUILD FAILED!------------------------
+2015-07-11 05:38:52,079 [ERROR] Unhandled exception during build: Command 03_createsu failed
+Traceback (most recent call last):
+  File "/opt/aws/bin/cfn-init", line 123, in <module>
+    worklog.build(detail.metadata, configSets)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 118, in build
+    Contractor(metadata).build(configSets, self)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 505, in build
+    self.run_config(config, worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 517, in run_config
+    CloudFormationCarpenter(config, self._auth_config).build(worklog)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/construction.py", line 248, in build
+    changes['commands'] = CommandTool().apply(self._config.commands)
+  File "/usr/local/lib/python2.7/site-packages/cfnbootstrap/command_tool.py", line 113, in apply
+    raise ToolError(u"Command %s failed" % name)
+ToolError: Command 03_createsu failed

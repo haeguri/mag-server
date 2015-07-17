@@ -1,0 +1,272 @@
+[2015-07-15T11:17:23Z] Started EB User Data
++ SLEEP_TIME=10
++ SLEEP_TIME_MAX=3600
++ true
++ curl https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/UserDataScript.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  8393  100  8393    0     0  24218      0 --:--:-- --:--:-- --:--:-- 24257
++ RESULT=0
++ [[ 0 -ne 0 ]]
++ /bin/bash /tmp/ebbootstrap.sh 'https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm' https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz 'https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem' 'https://cloudformation-waitcondition-ap-northeast-1.s3-ap-northeast-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-northeast-1%3A085326901678%3Astack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIZ6TP2XVEMTYTWLQ&Expires=1436678763&Signature=a9lC5ApvYKC3Uq3FDl2qK2pkUik%3D' arn:aws:cloudformation:ap-northeast-1:085326901678:stack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896 ap-northeast-1 5853392f6602
+[2015-07-15T11:17:24.225Z] Started EB Bootstrapping Script.
+[2015-07-15T11:17:24.231Z] Received parameters:
+ RPMS = https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm
+ TARBALLS = https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz
+ EB_GEMS = https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem
+ SIGNAL_URL = https://cloudformation-waitcondition-ap-northeast-1.s3-ap-northeast-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-northeast-1%3A085326901678%3Astack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIZ6TP2XVEMTYTWLQ&Expires=1436678763&Signature=a9lC5ApvYKC3Uq3FDl2qK2pkUik%3D
+ STACK_ID = arn:aws:cloudformation:ap-northeast-1:085326901678:stack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896
+ REGION = ap-northeast-1
+ GUID = 5853392f6602
+[2015-07-15T11:17:24.250Z] yum repo has already been locked to 5853392f6602.
+[2015-07-15T11:17:24.251Z] yum update has already been done.
+[2015-07-15T11:17:24.436Z] Completed creating AWS EB users and groups.
+[2015-07-15T11:17:24.440Z] Started executing install_rpms https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm.
+[2015-07-15T11:17:24.453Z] Installing RPM: https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm.
+[2015-07-15T11:17:25.888Z] aws-cfn-bootstrap-1.4-7_eb.noarch has already been installed. Skip installing.
+[2015-07-15T11:17:25.893Z] Installing RPM: https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/aws-elasticbeanstalk-tools-1.15-1.noarch.rpm.
+[2015-07-15T11:17:26.012Z] aws-elasticbeanstalk-tools-1.15-1.noarch has already been installed. Skip installing.
+[2015-07-15T11:17:26.018Z] Command Returned: 
+[2015-07-15T11:17:26.021Z] Completed executing install_rpms.
+[2015-07-15T11:17:26.025Z] Started executing install_tarballs https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz.
+[2015-07-15T11:17:26.033Z] Installing tarball: https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz.
+[2015-07-15T11:17:26.041Z] awseb-ruby-2.1.5-x86_64-20141120_2028.tar.gz has already been installed. Skip installing.
+[2015-07-15T11:17:26.046Z] Command Returned: 
+[2015-07-15T11:17:26.049Z] Completed executing install_tarballs.
+[2015-07-15T11:17:26.053Z] Started executing install_eb_gems https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem.
+[2015-07-15T11:17:26.465Z] Installing EB Gem: https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/beanstalk-core-1.6.gem.
+[2015-07-15T11:17:31.403Z] beanstalk-core-1.6 has already been installed. Skip installing.
+[2015-07-15T11:17:31.408Z] Installing EB Gem: https://s3-ap-northeast-1.amazonaws.com/elasticbeanstalk-env-resources-ap-northeast-1/stalks/eb_python_3.18.1/lib/executor-1.1.gem.
+[2015-07-15T11:17:31.553Z] executor-1.1 has already been installed. Skip installing.
+[2015-07-15T11:17:31.558Z] Command Returned: 
+[2015-07-15T11:17:31.561Z] Completed executing install_eb_gems.
+[2015-07-15T11:17:31.565Z] First init of system.
+[2015-07-15T11:17:31.569Z] Started executing cfn_init _OnInstanceBoot.
+[2015-07-15T11:17:31.573Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+[2015-07-15T11:17:35.448Z] Command Returned: 
+[2015-07-15T11:17:35.452Z] Completed executing cfn_init.
+[2015-07-15T11:17:35.456Z] Check whether controlled by launch workflow...
+/opt/elasticbeanstalk/lib/ruby/lib/ruby/gems/2.1.0/gems/beanstalk-core-1.6/lib/elasticbeanstalk/environment-metadata.rb:154:in `block in metadata': Path AWS::ElasticBeanstalk::Ext||_LaunchS3URL doesn't exist in metadata. (ElasticBeanstalk::BeanstalkRuntimeError)
+	from /opt/elasticbeanstalk/lib/ruby/lib/ruby/gems/2.1.0/gems/beanstalk-core-1.6/lib/elasticbeanstalk/environment-metadata.rb:148:in `each'
+	from /opt/elasticbeanstalk/lib/ruby/lib/ruby/gems/2.1.0/gems/beanstalk-core-1.6/lib/elasticbeanstalk/environment-metadata.rb:148:in `metadata'
+	from /opt/elasticbeanstalk/lib/ruby/lib/ruby/gems/2.1.0/gems/beanstalk-core-1.6/lib/elasticbeanstalk/environment-metadata.rb:70:in `launch_s3_url'
+	from /opt/elasticbeanstalk/lib/ruby/lib/ruby/gems/2.1.0/gems/beanstalk-core-1.6/bin/get-config:101:in `<top (required)>'
+	from /opt/elasticbeanstalk/lib/ruby/bin/get-config:23:in `load'
+	from /opt/elasticbeanstalk/lib/ruby/bin/get-config:23:in `<main>'
+[2015-07-15T11:17:36.394Z] Failed to find launch s3 url.
+[2015-07-15T11:17:36.399Z] Scaled up instance. Runnining full self-initiated provisioning.
+[2015-07-15T11:17:36.405Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+[2015-07-15T11:17:36.411Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+[2015-07-15T11:18:09.241Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-15T11:18:09.247Z] Completed executing run_eb_command.
+[2015-07-15T11:18:09.251Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-SelfStartup" } .
+[2015-07-15T11:18:09.257Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-SelfStartup" } .
+[2015-07-15T11:20:57.560Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-15T11:20:57.570Z] Completed executing run_eb_command.
+[2015-07-15T11:20:57.576Z] Started executing start_cfn_hup.
+[2015-07-15T11:20:57.582Z] Starting cfn-hup.
+[2015-07-15T11:20:57.590Z] Command Returned: cfn-hup start/running, process 3130
+[2015-07-15T11:20:57.597Z] Completed executing start_cfn_hup.
+[2015-07-15T11:20:57.603Z] Synchronizing network time in background.
+[2015-07-15T11:20:57.610Z] Successfully bootstrapped instance.
+[2015-07-15T11:20:57.621Z] Sending success signal to CFN wait condition.
+Error signaling CloudFormation: [Errno 403] HTTP Error 403 : <?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Request has expired</Message><Expires>2015-07-12T05:26:03Z</Expires><ServerTime>2015-07-15T11:20:58Z</ServerTime><RequestId>561DF1B7354899CB</RequestId><HostId>eh//XzK3uMDoPD5QyzDknfCA5+5dh30QBDwP9obGMIJSRb0Hhml+1U1zamkYms0OA8cg8nZjdZU=</HostId></Error>
+[2015-07-15T11:20:58.735Z] Wait Condition Signal expired.
+[2015-07-15T11:20:58.740Z] Tailing /var/log/eb-commandprocessor.log
+
+******************* eb-commandprocessor taillog *******************
+[2015-07-15T11:17:36.545Z] INFO  [2272]  : Running 3 of 4 actions: InfraWriteApp2...
+[2015-07-15T11:17:40.575Z] INFO  [2272]  : Running 4 of 4 actions: PreInitHook...
+[2015-07-15T11:18:09.234Z] INFO  [2272]  : Running AddonsAfter for command CMD-PreInit...
+[2015-07-15T11:18:09.234Z] INFO  [2272]  : Command CMD-PreInit succeeded!
+[2015-07-15T11:18:09.234Z] INFO  [2272]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-07-15T11:18:09.380Z] DEBUG [2379]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-15T11:18:09.380Z] INFO  [2379]  : Received command CMD-SelfStartup: 
+{
+  "api_version" : "1.0",
+  "request_id": "0",
+  "command_name": "CMD-SelfStartup"
+}
+
+[2015-07-15T11:18:09.380Z] DEBUG [2379]  : Checking if the command processor should execute...
+[2015-07-15T11:18:09.400Z] DEBUG [2379]  : Checking whether the command is applicable to instance (i-14f62fe6)..
+[2015-07-15T11:18:09.400Z] INFO  [2379]  : Command is applicable to this instance (i-14f62fe6)..
+[2015-07-15T11:18:09.400Z] DEBUG [2379]  : Checking if the received command stage is valid..
+[2015-07-15T11:18:09.400Z] INFO  [2379]  : No stage_num in command. Valid stage..
+[2015-07-15T11:18:09.400Z] INFO  [2379]  : Command processor should execute command.
+[2015-07-15T11:18:09.400Z] DEBUG [2379]  : Storing current stage..
+[2015-07-15T11:18:09.400Z] DEBUG [2379]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-07-15T11:18:09.401Z] INFO  [2379]  : Executing command: CMD-SelfStartup...
+[2015-07-15T11:18:09.401Z] DEBUG [2379]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-07-15T11:18:09.401Z] DEBUG [2379]  : Refreshing metadata..
+[2015-07-15T11:18:09.401Z] DEBUG [2379]  : Refreshed environment metadata.
+[2015-07-15T11:18:09.401Z] DEBUG [2379]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-07-15T11:18:09.402Z] DEBUG [2379]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-07-15T11:18:09.403Z] INFO  [2379]  : Found enabled addons: ["logpublish"].
+[2015-07-15T11:18:09.403Z] INFO  [2379]  : Updating Command definition of addon logpublish.
+[2015-07-15T11:18:09.404Z] DEBUG [2379]  : Loaded definition of Command CMD-SelfStartup.
+[2015-07-15T11:18:09.404Z] INFO  [2379]  : Executing command CMD-SelfStartup activities...
+[2015-07-15T11:18:09.404Z] DEBUG [2379]  : Setting environment variables..
+[2015-07-15T11:18:09.404Z] INFO  [2379]  : Running AddonsBefore for command CMD-SelfStartup...
+[2015-07-15T11:18:09.404Z] DEBUG [2379]  : Running stages of Command CMD-SelfStartup from stage 0 to stage 1...
+[2015-07-15T11:18:09.404Z] INFO  [2379]  : Running stage 0 of command CMD-SelfStartup...
+[2015-07-15T11:18:09.404Z] DEBUG [2379]  : Loaded 4 actions for stage 0.
+[2015-07-15T11:18:09.404Z] INFO  [2379]  : Running 1 of 4 actions: EbExtensionPreBuild...
+[2015-07-15T11:19:02.104Z] INFO  [2379]  : Running 2 of 4 actions: AppDeployPreHook...
+[2015-07-15T11:20:17.677Z] INFO  [2379]  : Running 3 of 4 actions: EbExtensionPostBuild...
+[2015-07-15T11:20:52.136Z] INFO  [2379]  : Running 4 of 4 actions: InfraCleanEbextension...
+[2015-07-15T11:20:52.139Z] INFO  [2379]  : Running stage 1 of command CMD-SelfStartup...
+[2015-07-15T11:20:52.139Z] DEBUG [2379]  : Loaded 3 actions for stage 1.
+[2015-07-15T11:20:52.139Z] INFO  [2379]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2015-07-15T11:20:57.457Z] INFO  [2379]  : Running 2 of 3 actions: AppDeployPostHook...
+[2015-07-15T11:20:57.458Z] INFO  [2379]  : Running 3 of 3 actions: PostInitHook...
+[2015-07-15T11:20:57.462Z] INFO  [2379]  : Running AddonsAfter for command CMD-SelfStartup...
+[2015-07-15T11:20:57.552Z] INFO  [2379]  : Command CMD-SelfStartup succeeded!
+[2015-07-15T11:20:57.553Z] INFO  [2379]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.758Z] Tailing /var/log/eb-activity.log
+
+******************* eb-activity taillog *******************
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/djdt_vertical.png'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/ajax-loader.gif'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/close.png'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/back_hover.png'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/close_hover.png'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/img/back.png'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/css/toolbar.css'
+  Copying '/opt/python/run/venv/local/lib/python3.4/site-packages/debug_toolbar/static/debug_toolbar/css/print.css'
+  
+  138 static files copied, 278 unmodified.
+  
+[2015-07-15T11:20:52.093Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_ladio_test2] : Completed activity.
+[2015-07-15T11:20:52.093Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-07-15T11:20:52.136Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2015-07-15T11:20:52.137Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0/InfraCleanEbextension] : Starting activity...
+[2015-07-15T11:20:52.139Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2015-07-15T11:20:52.139Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage0] : Completed activity. Result:
+  Command CMD-SelfStartup stage 0 completed.
+[2015-07-15T11:20:52.139Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1] : Starting activity...
+[2015-07-15T11:20:52.139Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2015-07-15T11:20:52.140Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2015-07-15T11:20:57.329Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 3033, uptime 0:00:03
+[2015-07-15T11:20:57.457Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-07-15T11:20:57.457Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployPostHook] : Starting activity...
+[2015-07-15T11:20:57.458Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-07-15T11:20:57.458Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/PostInitHook] : Starting activity...
+[2015-07-15T11:20:57.458Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  2361
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/StartupStage1] : Completed activity. Result:
+  Command CMD-SelfStartup stage 1 completed.
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter] : Starting activity...
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-07-15T11:20:57.462Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-07-15T11:20:57.552Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-07-15T11:20:57.552Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-07-15T11:20:57.552Z] INFO  [2379]  - [CMD-SelfStartup/AddonsAfter] : Completed activity.
+[2015-07-15T11:20:57.553Z] INFO  [2379]  - [CMD-SelfStartup] : Completed activity. Result:
+  Command CMD-SelfStartup succeeded.
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.769Z] Tailing /var/log/eb-tools.log
+
+******************* eb-tools taillog *******************
+***eb-tools is not available yet.***
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.774Z] Tailing /var/log/eb-version-deployment.log
+
+******************* eb-version-deployment taillog *******************
+2015-07-15 11:17:38,106 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-ap-northeast-1-085326901678,resources/environments/e-ih6mc5erwn/_runtime/versions/manifest_1436958909652> from bucket elasticbeanstalk-ap-northeast-1-085326901678 and prefix resources/environments/e-ih6mc5erwn/_runtime/versions/
+2015-07-15 11:17:38,170 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-07-15 11:17:40,537 [INFO] Downloaded version label app-150715_180543 from s3 key <Key: elasticbeanstalk-ap-northeast-1-085326901678,resources/environments/e-ih6mc5erwn/_runtime/_versions/ladio_test2/app-150715_180543>
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.788Z] Tailing /var/log/cfn-init.log
+
+******************* cfn-init taillog *******************
+2015-07-15 11:17:34,146 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:17:34,178 [INFO] Running configSets: _OnInstanceBoot
+2015-07-15 11:17:34,179 [INFO] Running configSet _OnInstanceBoot
+2015-07-15 11:17:34,184 [INFO] Running config AWSEBBaseConfig
+2015-07-15 11:17:34,189 [INFO] Command clearbackupfiles succeeded
+2015-07-15 11:17:34,198 [INFO] Running config AWSEBMessageOfTheDay
+2015-07-15 11:17:34,202 [INFO] Command 01clearoriginal succeeded
+2015-07-15 11:17:34,208 [INFO] Command 02createbanner succeeded
+2015-07-15 11:17:34,319 [INFO] Command 03updatebanner succeeded
+2015-07-15 11:17:34,329 [INFO] Running config Infra-InstallBaseHooksPkg
+2015-07-15 11:17:34,526 [INFO] Running config Infra-InstallContainerHooksPkg
+2015-07-15 11:17:35,260 [INFO] Running config Infra-WriteLeaderTestScript
+2015-07-15 11:17:35,267 [INFO] Running config AWSEBLockCfnBootstap
+2015-07-15 11:17:35,271 [INFO] Command add_lock succeeded
+2015-07-15 11:17:35,279 [INFO] Running config Infra-WriteTailLogsConf
+2015-07-15 11:17:35,289 [INFO] Running config Infra-WriteSystemTailLogsConf
+2015-07-15 11:17:35,297 [INFO] Running config Infra-WriteBundleLogsConf
+2015-07-15 11:17:35,302 [INFO] Running config Infra-WritePublishLogsConf
+2015-07-15 11:17:35,306 [INFO] Running config Infra-WritePublishLogsCron
+2015-07-15 11:17:35,308 [INFO] ConfigSets completed
+2015-07-15 11:17:35,437 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:17:36,756 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:17:36,777 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-15 11:17:36,778 [INFO] Running configSet Infra-WriteApplication2
+2015-07-15 11:17:36,779 [INFO] Running config Infra-WriteApplication2
+2015-07-15 11:17:40,549 [INFO] Command 01downloadVersion succeeded
+2015-07-15 11:17:40,552 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-15 11:17:40,554 [INFO] ConfigSets completed
+2015-07-15 11:17:40,564 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:18:09,674 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:18:09,698 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-15 11:18:09,698 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-15 11:18:09,699 [INFO] Running config prebuild_0_ladio_test2
+2015-07-15 11:19:02,078 [INFO] Yum installed [u'postgresql93-devel', u'git']
+2015-07-15 11:19:02,080 [INFO] ConfigSets completed
+2015-07-15 11:19:02,088 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:20:17,943 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:20:17,959 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-15 11:20:17,960 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-15 11:20:17,961 [INFO] Running config postbuild_0_ladio_test2
+2015-07-15 11:20:18,797 [INFO] Test failed with code 1
+2015-07-15 11:20:19,618 [INFO] Test failed with code 1
+2015-07-15 11:20:20,442 [INFO] Test failed with code 1
+2015-07-15 11:20:52,093 [INFO] Command 04_collectstatic succeeded
+2015-07-15 11:20:52,096 [INFO] ConfigSets completed
+2015-07-15 11:20:52,120 [INFO] -----------------------Build complete-----------------------
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.796Z] Tailing /var/log/cfn-hup.log
+
+******************* cfn-hup taillog *******************
+2015-07-15 11:20:57,822 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2015-07-15 11:20:57,822 [DEBUG] SQS client initialized with endpoint https://ap-northeast-1.queue.amazonaws.com
+2015-07-15 11:20:57,822 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2015-07-15 11:20:57,822 [DEBUG] Enabled single threading mode.
+2015-07-15 11:20:57,823 [DEBUG] Creating /var/lib/cfn-hup/data
+2015-07-15 11:20:57,825 [DEBUG] Registering listener i-14f62fe6 for stack arn:aws:cloudformation:ap-northeast-1:085326901678:stack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896
+2015-07-15 11:20:58,800 [INFO] Refreshing listener credentials
+2015-07-15 11:20:58,801 [DEBUG] Get listener credentials for listener i-14f62fe6 in stack arn:aws:cloudformation:ap-northeast-1:085326901678:stack/awseb-e-ih6mc5erwn-stack/4fdca380-278d-11e5-99f1-50a676d45896
+******************* End of taillog *******************
+
+
+[2015-07-15T11:20:58.809Z] Completed EB Bootstrapping Script.
++ exit 0
+15 Jul 11:21:06 ntpdate[3137]: adjust time server 60.56.214.78 offset 0.003282 sec

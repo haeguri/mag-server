@@ -1,0 +1,67 @@
+footer {
+    text-align: center;
+}
+
+.post-body img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+div.media img{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.post-list-body {
+    overflow:hidden;
+    white-space: initial;
+    height: 50px;
+    text-overflow: ellipsis;
+}
+
+div.media .post-list-body {
+    height: 100px;
+}
+
+p.post-meta {
+    margin: 0px;
+}
+
+
+.container.content-detail {
+    margin-top: 50px;
+}
+
+.container.content-detail p.post-body {
+    margin-top: 10px;
+}
+
+
+
+.none-home {
+    background-color: #000000;
+}
+
+
+/*
+
+visible	The overflow is not clipped. It renders outside the element's box. This is default	Play it »
+hidden	The overflow is clipped, and the rest of the content will be invisible	Play it »
+scroll	The overflow is clipped, but a scroll-bar is added to see the rest of the content	Play it »
+auto	If overflow is clipped, a scroll-bar should be added to see the rest of the content	Play it »
+initial	Sets this property to its default value. Read about initial	Play it »
+inherit
+
+*/
+
+/*
+
+normal	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary. This is default	Play it »
+nowrap	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered	Play it »
+pre	Whitespace is preserved by the browser. Text will only wrap on line breaks. Acts like the <pre> tag in HTML	Play it »
+pre-line	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks	Play it »
+pre-wrap	Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks	Play it »
+initial	Sets this property to its default value. Read about initial	Play it »
+inherit
+
+*/

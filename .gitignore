@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+ladio/.idea/
+ladio/.idea/workspace.xml
+ladio/media
+ladio/db.sqlite3
+ladio/ladio/local_settings.py

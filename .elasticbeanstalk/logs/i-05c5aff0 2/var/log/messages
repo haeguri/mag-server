@@ -1,0 +1,433 @@
+Jul 12 03:08:01 ip-172-31-18-243 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1927" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jul 12 03:23:58 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 03:23:58 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 03:24:00 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1398 seconds.
+Jul 12 03:47:18 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 03:47:18 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 03:47:20 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1745 seconds.
+Jul 12 04:16:25 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 04:16:25 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 04:16:27 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1721 seconds.
+Jul 12 04:45:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 04:45:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 04:45:09 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1780 seconds.
+Jul 12 05:14:49 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 05:14:49 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 05:14:51 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1457 seconds.
+Jul 12 05:39:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 05:39:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 05:39:10 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1589 seconds.
+Jul 12 06:05:39 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 06:05:39 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 06:05:41 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1378 seconds.
+Jul 12 06:28:39 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 06:28:39 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 06:28:41 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1605 seconds.
+Jul 12 06:55:26 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 06:55:26 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 06:55:28 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1519 seconds.
+Jul 12 07:20:47 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 07:20:47 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 07:20:49 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1423 seconds.
+Jul 12 07:44:32 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 07:44:32 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 07:44:34 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1670 seconds.
+Jul 12 08:12:24 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 08:12:24 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 08:12:26 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1627 seconds.
+Jul 12 08:39:33 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 08:39:33 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 08:39:35 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1743 seconds.
+Jul 12 09:08:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 09:08:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 09:08:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1527 seconds.
+Jul 12 09:34:07 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 09:34:07 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 09:34:09 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1506 seconds.
+Jul 12 09:59:15 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 09:59:15 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 09:59:17 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1489 seconds.
+Jul 12 10:24:06 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 10:24:06 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 10:24:08 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1671 seconds.
+Jul 12 10:51:59 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 10:51:59 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 10:52:01 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1452 seconds.
+Jul 12 11:16:13 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 11:16:13 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 11:16:15 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1733 seconds.
+Jul 12 11:45:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 11:45:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 11:45:10 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1694 seconds.
+Jul 12 12:13:24 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 12:13:24 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 12:13:26 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1752 seconds.
+Jul 12 12:42:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 12:42:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 12:42:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1634 seconds.
+Jul 12 13:09:54 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 13:09:54 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 13:09:56 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1618 seconds.
+Jul 12 13:36:54 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 13:36:54 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 13:36:56 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1403 seconds.
+Jul 12 14:00:19 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 14:00:19 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 14:00:21 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1578 seconds.
+Jul 12 14:26:39 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 14:26:39 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 14:26:41 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1419 seconds.
+Jul 12 14:50:20 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 14:50:20 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 14:50:22 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1546 seconds.
+Jul 12 15:16:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 15:16:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 15:16:10 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1746 seconds.
+Jul 12 15:45:16 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 15:45:16 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 15:45:18 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1506 seconds.
+Jul 12 16:10:24 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 16:10:24 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 16:10:26 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1797 seconds.
+Jul 12 16:40:23 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 16:40:23 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 16:40:25 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1412 seconds.
+Jul 12 17:03:57 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 17:03:57 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 17:03:59 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1388 seconds.
+Jul 12 17:27:07 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 17:27:07 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 17:27:09 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1541 seconds.
+Jul 12 17:52:50 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 17:52:50 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 17:52:52 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1494 seconds.
+Jul 12 18:17:46 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 18:17:46 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 18:17:48 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1557 seconds.
+Jul 12 18:43:45 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 18:43:45 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 18:43:47 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1516 seconds.
+Jul 12 19:09:03 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 19:09:03 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 19:09:05 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1492 seconds.
+Jul 12 19:33:57 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 19:33:57 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 19:33:59 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1458 seconds.
+Jul 12 19:58:17 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 19:58:17 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 19:58:19 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1409 seconds.
+Jul 12 20:21:48 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 20:21:48 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 20:21:50 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1733 seconds.
+Jul 12 20:50:43 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 20:50:43 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 20:50:45 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1623 seconds.
+Jul 12 21:17:48 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 21:17:48 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 21:17:50 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1704 seconds.
+Jul 12 21:46:14 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 21:46:14 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 21:46:16 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1669 seconds.
+Jul 12 22:14:05 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 22:14:05 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 22:14:07 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1478 seconds.
+Jul 12 22:38:45 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 22:38:45 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 22:38:47 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1742 seconds.
+Jul 12 23:07:49 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 23:07:49 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 23:07:51 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1659 seconds.
+Jul 12 23:35:30 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 12 23:35:30 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 12 23:35:32 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1597 seconds.
+Jul 13 00:02:09 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 00:02:09 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 00:02:11 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1690 seconds.
+Jul 13 00:30:21 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 00:30:21 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 00:30:23 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1356 seconds.
+Jul 13 00:52:59 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 00:52:59 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 00:53:01 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1448 seconds.
+Jul 13 01:17:09 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 01:17:09 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 01:17:11 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1392 seconds.
+Jul 13 01:40:23 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 01:40:23 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 01:40:25 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1691 seconds.
+Jul 13 02:08:36 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 02:08:36 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 02:08:38 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1569 seconds.
+Jul 13 02:34:47 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 02:34:47 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 02:34:49 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1464 seconds.
+Jul 13 02:59:13 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 02:59:13 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 02:59:15 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1497 seconds.
+Jul 13 03:24:12 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 03:24:12 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 03:24:14 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1433 seconds.
+Jul 13 03:48:07 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 03:48:07 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 03:48:09 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1369 seconds.
+Jul 13 04:10:58 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 04:10:58 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 04:11:00 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1758 seconds.
+Jul 13 04:40:18 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 04:40:18 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 04:40:20 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1606 seconds.
+Jul 13 05:07:06 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 05:07:06 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 05:07:08 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1684 seconds.
+Jul 13 05:35:12 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 05:35:12 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 05:35:14 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1546 seconds.
+Jul 13 06:01:00 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 06:01:00 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 06:01:02 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1504 seconds.
+Jul 13 06:26:06 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 06:26:06 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 06:26:08 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1409 seconds.
+Jul 13 06:49:37 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 06:49:37 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 06:49:39 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1752 seconds.
+Jul 13 07:18:51 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 07:18:51 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 07:18:53 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1430 seconds.
+Jul 13 07:42:43 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 07:42:43 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 07:42:45 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1597 seconds.
+Jul 13 08:09:22 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 08:09:22 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 08:09:24 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1635 seconds.
+Jul 13 08:36:39 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 08:36:39 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 08:36:41 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1626 seconds.
+Jul 13 09:03:47 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 09:03:47 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 09:03:49 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1489 seconds.
+Jul 13 09:28:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 09:28:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 09:28:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1651 seconds.
+Jul 13 09:56:11 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 09:56:11 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 09:56:13 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1788 seconds.
+Jul 13 10:26:01 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 10:26:01 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 10:26:03 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1591 seconds.
+Jul 13 10:52:34 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 10:52:34 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 10:52:36 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1690 seconds.
+Jul 13 11:20:46 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 11:20:46 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 11:20:48 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1666 seconds.
+Jul 13 11:48:34 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 11:48:34 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 11:48:36 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1620 seconds.
+Jul 13 12:15:36 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 12:15:36 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 12:15:38 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1647 seconds.
+Jul 13 12:43:05 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 12:43:05 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 12:43:07 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1713 seconds.
+Jul 13 13:11:40 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 13:11:40 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 13:11:42 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1796 seconds.
+Jul 13 13:41:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 13:41:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 13:41:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1398 seconds.
+Jul 13 14:04:58 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 14:04:58 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 14:05:00 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1355 seconds.
+Jul 13 14:27:35 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 14:27:35 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 14:27:37 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1768 seconds.
+Jul 13 14:57:05 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 14:57:05 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 14:57:07 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1570 seconds.
+Jul 13 15:23:17 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 15:23:17 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 15:23:19 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1742 seconds.
+Jul 13 15:52:21 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 15:52:21 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 15:52:23 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1626 seconds.
+Jul 13 16:19:29 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 16:19:29 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 16:19:31 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1772 seconds.
+Jul 13 16:49:03 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 16:49:03 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 16:49:05 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1702 seconds.
+Jul 13 17:17:27 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 17:17:27 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 17:17:29 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1380 seconds.
+Jul 13 17:40:29 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 17:40:29 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 17:40:31 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1737 seconds.
+Jul 13 18:09:28 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 18:09:28 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 18:09:30 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1677 seconds.
+Jul 13 18:37:27 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 18:37:27 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 18:37:29 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1370 seconds.
+Jul 13 19:00:19 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 19:00:19 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 19:00:21 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1789 seconds.
+Jul 13 19:30:10 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 19:30:10 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 19:30:12 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1499 seconds.
+Jul 13 19:55:11 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 19:55:11 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 19:55:13 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1655 seconds.
+Jul 13 20:22:48 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 20:22:48 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 20:22:50 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1659 seconds.
+Jul 13 20:50:29 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 20:50:29 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 20:50:31 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1412 seconds.
+Jul 13 21:14:03 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 21:14:03 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 21:14:05 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1350 seconds.
+Jul 13 21:36:35 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 21:36:35 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 21:36:37 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1453 seconds.
+Jul 13 22:00:50 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 22:00:50 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 22:00:52 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1602 seconds.
+Jul 13 22:27:34 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 22:27:34 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 22:27:36 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1587 seconds.
+Jul 13 22:54:03 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 22:54:03 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 22:54:05 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1445 seconds.
+Jul 13 23:18:10 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 23:18:10 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 23:18:12 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1524 seconds.
+Jul 13 23:43:36 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 13 23:43:36 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 13 23:43:38 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1488 seconds.
+Jul 14 00:08:26 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 00:08:26 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 00:08:28 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1476 seconds.
+Jul 14 00:33:04 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 00:33:04 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 00:33:06 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1445 seconds.
+Jul 14 00:57:11 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 00:57:11 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 00:57:13 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1648 seconds.
+Jul 14 01:24:41 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 01:24:41 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 01:24:43 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1470 seconds.
+Jul 14 01:49:13 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 01:49:13 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 01:49:15 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1769 seconds.
+Jul 14 02:18:44 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 02:18:44 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 02:18:46 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1525 seconds.
+Jul 14 02:44:11 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 02:44:11 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 02:44:13 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1750 seconds.
+Jul 14 03:13:23 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 03:13:23 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 03:13:25 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1512 seconds.
+Jul 14 03:38:37 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 03:38:37 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 03:38:39 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1685 seconds.
+Jul 14 04:06:44 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 04:06:44 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 04:06:46 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1378 seconds.
+Jul 14 04:29:44 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 04:29:44 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 04:29:46 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1687 seconds.
+Jul 14 04:57:53 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 04:57:53 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 04:57:55 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1352 seconds.
+Jul 14 05:20:27 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 05:20:27 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 05:20:29 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1694 seconds.
+Jul 14 05:48:43 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 05:48:43 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 05:48:45 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1652 seconds.
+Jul 14 06:16:17 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 06:16:17 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 06:16:19 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1414 seconds.
+Jul 14 06:39:53 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 06:39:53 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 06:39:55 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1609 seconds.
+Jul 14 07:06:44 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 07:06:44 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 07:06:46 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1369 seconds.
+Jul 14 07:29:35 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 07:29:35 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 07:29:37 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1513 seconds.
+Jul 14 07:54:50 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 07:54:50 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 07:54:52 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1370 seconds.
+Jul 14 08:17:42 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 08:17:42 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 08:17:44 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1507 seconds.
+Jul 14 08:42:51 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 08:42:51 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 08:42:53 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1439 seconds.
+Jul 14 09:06:52 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 09:06:52 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 09:06:54 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1598 seconds.
+Jul 14 09:33:32 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 09:33:32 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 09:33:34 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1702 seconds.
+Jul 14 10:01:56 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 10:01:56 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 10:01:58 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1371 seconds.
+Jul 14 10:24:49 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 10:24:49 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 10:24:51 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1427 seconds.
+Jul 14 10:48:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 10:48:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 10:48:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1545 seconds.
+Jul 14 11:14:25 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 11:14:25 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 11:14:27 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1665 seconds.
+Jul 14 11:42:12 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 11:42:12 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 11:42:14 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1408 seconds.
+Jul 14 12:05:42 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 12:05:42 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 12:05:44 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1598 seconds.
+Jul 14 12:32:22 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 12:32:22 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 12:32:24 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1613 seconds.
+Jul 14 12:59:17 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 12:59:17 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 12:59:19 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1669 seconds.
+Jul 14 13:27:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 13:27:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 13:27:10 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1388 seconds.
+Jul 14 13:50:18 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 13:50:18 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 13:50:20 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1777 seconds.
+Jul 14 14:19:57 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 14:19:57 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 14:19:59 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1541 seconds.
+Jul 14 14:45:40 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 14:45:40 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 14:45:42 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1354 seconds.
+Jul 14 15:08:16 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 15:08:16 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 15:08:18 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1756 seconds.
+Jul 14 15:37:34 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 15:37:34 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 15:37:36 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1565 seconds.
+Jul 14 16:03:41 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 16:03:41 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 16:03:43 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1435 seconds.
+Jul 14 16:27:38 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 16:27:38 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 16:27:40 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1468 seconds.
+Jul 14 16:52:08 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 16:52:08 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 16:52:10 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1691 seconds.
+Jul 14 17:20:21 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 17:20:21 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 17:20:23 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1492 seconds.
+Jul 14 17:45:15 ip-172-31-18-243 dhclient[1881]: DHCPREQUEST on eth0 to 172.31.16.1 port 67 (xid=0x8da883a)
+Jul 14 17:45:15 ip-172-31-18-243 dhclient[1881]: DHCPACK from 172.31.16.1 (xid=0x8da883a)
+Jul 14 17:45:17 ip-172-31-18-243 dhclient[1881]: bound to 172.31.18.243 -- renewal in 1495 seconds.

@@ -1,0 +1,10 @@
+branch-defaults:
+  default:
+    environment: ladio-test2-dev
+global:
+  application_name: ladio_test2
+  default_ec2_keyname: ladio_test
+  default_platform: Python 3.4
+  default_region: null
+  profile: null
+  sc: null

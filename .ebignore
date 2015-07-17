@@ -1,0 +1,13 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+__pycache__/
+*.pyc
+
+ladio/.idea/
+ladio/.idea/workspace.xml
+ladio/ladio/local_settings.py
+ladio/media/
+

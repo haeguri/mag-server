@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <spinner show="!home.loading"></spinner>
+            <div class="post-preview" ng-repeat="content in index.content_list">
+                <h2 class="post-title" ng-click="index.goContentDetail(content.id)">
+                    {$ content.title $}
+                </h2>
+                <p class="post-meta">{$ content.created $}</p>
+                <hr ng-if="!$last"/>
+            </div>
+        </div>
+    </div>
+</div>

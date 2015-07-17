@@ -1,0 +1,94 @@
+2015-07-15 11:17:34,146 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:17:34,178 [INFO] Running configSets: _OnInstanceBoot
+2015-07-15 11:17:34,179 [INFO] Running configSet _OnInstanceBoot
+2015-07-15 11:17:34,184 [INFO] Running config AWSEBBaseConfig
+2015-07-15 11:17:34,189 [INFO] Command clearbackupfiles succeeded
+2015-07-15 11:17:34,198 [INFO] Running config AWSEBMessageOfTheDay
+2015-07-15 11:17:34,202 [INFO] Command 01clearoriginal succeeded
+2015-07-15 11:17:34,208 [INFO] Command 02createbanner succeeded
+2015-07-15 11:17:34,319 [INFO] Command 03updatebanner succeeded
+2015-07-15 11:17:34,329 [INFO] Running config Infra-InstallBaseHooksPkg
+2015-07-15 11:17:34,526 [INFO] Running config Infra-InstallContainerHooksPkg
+2015-07-15 11:17:35,260 [INFO] Running config Infra-WriteLeaderTestScript
+2015-07-15 11:17:35,267 [INFO] Running config AWSEBLockCfnBootstap
+2015-07-15 11:17:35,271 [INFO] Command add_lock succeeded
+2015-07-15 11:17:35,279 [INFO] Running config Infra-WriteTailLogsConf
+2015-07-15 11:17:35,289 [INFO] Running config Infra-WriteSystemTailLogsConf
+2015-07-15 11:17:35,297 [INFO] Running config Infra-WriteBundleLogsConf
+2015-07-15 11:17:35,302 [INFO] Running config Infra-WritePublishLogsConf
+2015-07-15 11:17:35,306 [INFO] Running config Infra-WritePublishLogsCron
+2015-07-15 11:17:35,308 [INFO] ConfigSets completed
+2015-07-15 11:17:35,437 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:17:36,756 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:17:36,777 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-15 11:17:36,778 [INFO] Running configSet Infra-WriteApplication2
+2015-07-15 11:17:36,779 [INFO] Running config Infra-WriteApplication2
+2015-07-15 11:17:40,549 [INFO] Command 01downloadVersion succeeded
+2015-07-15 11:17:40,552 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-15 11:17:40,554 [INFO] ConfigSets completed
+2015-07-15 11:17:40,564 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:18:09,674 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:18:09,698 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-15 11:18:09,698 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-15 11:18:09,699 [INFO] Running config prebuild_0_ladio_test2
+2015-07-15 11:19:02,078 [INFO] Yum installed [u'postgresql93-devel', u'git']
+2015-07-15 11:19:02,080 [INFO] ConfigSets completed
+2015-07-15 11:19:02,088 [INFO] -----------------------Build complete-----------------------
+2015-07-15 11:20:17,943 [INFO] -----------------------Starting build-----------------------
+2015-07-15 11:20:17,959 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-15 11:20:17,960 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-15 11:20:17,961 [INFO] Running config postbuild_0_ladio_test2
+2015-07-15 11:20:18,797 [INFO] Test failed with code 1
+2015-07-15 11:20:19,618 [INFO] Test failed with code 1
+2015-07-15 11:20:20,442 [INFO] Test failed with code 1
+2015-07-15 11:20:52,093 [INFO] Command 04_collectstatic succeeded
+2015-07-15 11:20:52,096 [INFO] ConfigSets completed
+2015-07-15 11:20:52,120 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:09:56,883 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:09:56,904 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-15 16:09:56,904 [INFO] Running configSet Infra-WriteApplication2
+2015-07-15 16:09:56,905 [INFO] Running config Infra-WriteApplication2
+2015-07-15 16:09:59,183 [INFO] Command 01downloadVersion succeeded
+2015-07-15 16:09:59,263 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-15 16:09:59,266 [INFO] ConfigSets completed
+2015-07-15 16:09:59,274 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:09:59,748 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:09:59,763 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-15 16:09:59,764 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-15 16:09:59,765 [INFO] Running config prebuild_0_ladio_test2
+2015-07-15 16:10:00,366 [INFO] ConfigSets completed
+2015-07-15 16:10:00,373 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:10:07,205 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:10:07,602 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-15 16:10:07,603 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-15 16:10:07,603 [INFO] Running config postbuild_0_ladio_test2
+2015-07-15 16:10:09,474 [INFO] Command 01_migration succeeded
+2015-07-15 16:10:12,676 [INFO] Command 02_migrate succeeded
+2015-07-15 16:10:14,385 [INFO] Command 03_createsu succeeded
+2015-07-15 16:10:46,708 [INFO] Command 04_collectstatic succeeded
+2015-07-15 16:10:46,711 [INFO] ConfigSets completed
+2015-07-15 16:10:46,718 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:12:07,607 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:12:07,628 [INFO] Running configSets: Infra-WriteApplication2
+2015-07-15 16:12:07,629 [INFO] Running configSet Infra-WriteApplication2
+2015-07-15 16:12:07,630 [INFO] Running config Infra-WriteApplication2
+2015-07-15 16:12:10,179 [INFO] Command 01downloadVersion succeeded
+2015-07-15 16:12:10,183 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+2015-07-15 16:12:10,185 [INFO] ConfigSets completed
+2015-07-15 16:12:10,195 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:12:10,422 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:12:10,438 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2015-07-15 16:12:10,439 [INFO] Running configSet Infra-EmbeddedPreBuild
+2015-07-15 16:12:10,439 [INFO] Running config prebuild_0_ladio_test2
+2015-07-15 16:12:11,213 [INFO] ConfigSets completed
+2015-07-15 16:12:11,221 [INFO] -----------------------Build complete-----------------------
+2015-07-15 16:12:16,043 [INFO] -----------------------Starting build-----------------------
+2015-07-15 16:12:16,143 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2015-07-15 16:12:16,143 [INFO] Running configSet Infra-EmbeddedPostBuild
+2015-07-15 16:12:16,144 [INFO] Running config postbuild_0_ladio_test2
+2015-07-15 16:12:18,008 [INFO] Command 01_migration succeeded
+2015-07-15 16:12:20,898 [INFO] Command 02_migrate succeeded
+2015-07-15 16:12:22,712 [INFO] Command 03_createsu succeeded
+2015-07-15 16:12:55,151 [INFO] Command 04_collectstatic succeeded
+2015-07-15 16:12:55,154 [INFO] ConfigSets completed
+2015-07-15 16:12:55,161 [INFO] -----------------------Build complete-----------------------
