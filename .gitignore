@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .ieda
+logs
 ladio/media
 ladio/db.sqlite3
 ladio/ladio/local_settings.py
