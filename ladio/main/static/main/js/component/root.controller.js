@@ -7,7 +7,6 @@
     .controller('MasterController', function (
             $rootScope,
             $scope,
-            //StaticUrl,
             UrlBundle
         ) {
             $scope.master = {};
