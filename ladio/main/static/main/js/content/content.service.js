@@ -4,9 +4,10 @@
 
     angular.module('ladio.services')
 
-        .factory('Content', function(RootUrl, $resource) {
+        .factory('Content', function(UrlBundle, RootUrl, $resource) {
+
             return $resource(
-                RootUrl + 'api/contents/:content_id',
+                UrlBundle.RootUrl + 'api/contents/:content_id',
                 null,
                 { }
             );

@@ -2,9 +2,9 @@
     'use strict';
 
     angular.module('ladio.services')
-        .factory('Authentication', function($cookies,$state, $http, $rootScope) {
+        .factory('Authentication', function($cookies,$state, $http, $rootScope, UrlBundle) {
             var Authentication = {
-                 /**
+                 /**y
                  * @name register
                  * @desc Try to register a new user
                  * @param {string} username The username entered by the user

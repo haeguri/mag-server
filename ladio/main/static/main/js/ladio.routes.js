@@ -10,7 +10,6 @@
             UrlBundle
         ) 
         {
-            UrlBundle = UrlBundle();
 
             $stateProvider
                 .state('index', {
