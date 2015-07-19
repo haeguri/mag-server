@@ -12,10 +12,6 @@ angular.module('ladio.controllers')
 
         $scope.index = {};
 
-        $scope.index.printTestValue = function() {
-            //console.log("TestValue in index", TestValue);
-        }
-
         Content.query({
 
         }, function(data) {
