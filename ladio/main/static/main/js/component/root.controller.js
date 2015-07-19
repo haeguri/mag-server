@@ -6,11 +6,15 @@
 
     .controller('MasterController', function (
             $rootScope,
-            $scope
+            $scope,
+            StaticUrl,
+            UrlBundle
         ) {
-
+            //console.log("FunctionConstant", FunctionConstant());
             $scope.master = {};
             $rootScope.user = {};
+
+            //console.log("UrlBundle Test In Root Controller", UrlBundle());
 
             $rootScope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams) {
                 $scope.master.header_image = {
