@@ -4,7 +4,7 @@ __author__ = 'haegyun'
 from django.contrib import admin
 from django.contrib.admin import AdminSite
 from main.models import Content, Channel
-from main.forms import StaffAuthenticationForm# , ChannelAdminForm
+from authentication.forms import StaffAuthenticationForm# , ChannelAdminForm
 from django.contrib.auth import get_user_model
 from django_summernote.admin import SummernoteModelAdmin
 

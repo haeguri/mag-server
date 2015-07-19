@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
-
+    'authentication',
     'main',
     'allauth',
     'allauth.account',
@@ -79,9 +79,9 @@ REST_FRAMEWORK = {
 }
 
 REST_AUTH_SERIALIZERS = {
-    'TOKEN_SERIALIZER': 'main.auth.serializers.TokenSerializer',
-    'USER_DETAILS_SERIALIZER':'main.auth.serializers.UserDetailsSerializer',
-    'LOGIN_SERIALIZER':'main.auth.serializers.LoginSerializer'
+    'TOKEN_SERIALIZER': 'authentication.serializers.TokenSerializer',
+    'USER_DETAILS_SERIALIZER':'authentication.serializers.UserDetailsSerializer',
+    'LOGIN_SERIALIZER':'authentication.serializers.LoginSerializer'
 }
 
 
@@ -114,7 +114,7 @@ AUTHENTICATION_BACKENDS = (
 
 WSGI_APPLICATION = 'ladio.wsgi.application'
 
-AUTH_USER_MODEL = 'main.User'
+AUTH_USER_MODEL = 'authentication.User'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_USER_MODEL_USERNAME_FIELD = 'nickname'

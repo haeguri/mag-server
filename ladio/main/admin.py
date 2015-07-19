@@ -1,13 +1,13 @@
 from django.contrib import admin
 from django.contrib.admin import AdminSite
-from django.contrib.auth.admin import UserAdmin as DefaultUserAdmin
 
 from django.contrib.auth import get_user_model
 
 from main.models import Content, Channel
-from main.forms import UserChangeForm,UserCreationForm, SuperuserAuthenticationForm, ChannelAdminForm
+from authentication.admin import UserAdmin
+from authentication.forms import SuperuserAuthenticationForm
+from main.forms import ChannelAdminForm
 from django_summernote.admin import SummernoteModelAdmin
-from django_admin_bootstrapped.widgets import GenericContentTypeSelect
 
 User = get_user_model()
 
@@ -21,37 +21,6 @@ class AdminRootSite(AdminSite):
 
 admin_root = AdminRootSite(name='admin')
 
-@admin.register(User, site=admin_root)
-class UserAdmin(DefaultUserAdmin):
-    # The forms to add and change user instances
-    form = UserChangeForm
-    add_form = UserCreationForm
-
-    # The fields to be used in displaying the User model.
-    # These override the definitions on the base UserAdmin
-    # that reference specific fields on auth.User.
-    list_display = ('email', 'nickname', 'date_joined', 'is_staff', 'is_superuser')
-    list_filter = ('is_superuser',)
-
-    fieldsets = (
-        (None, {'fields': ('email', 'password')}),
-        ('Personal info', {'fields': ('nickname',)}),
-        ('Permissions', {'fields': ('is_staff', 'is_superuser','groups', 'user_permissions')}),
-    )
-    # add_fieldsets is not a standard ModelAdmin attribute. UserAdmin
-    # overrides get_fieldsets to use this attribute when creating a user.
-    add_fieldsets = (
-        (None, {
-            'classes': ('wide',),
-            'fields': ('email', 'nickname', 'password1', 'password2')}
-        ),
-    )
-
-    search_fields = ('email',)
-    ordering = ('email',)
-    filter_horizontal = ('groups', 'user_permissions',)
-
-
 @admin.register(Channel, site=admin_root)
 class ChannelAdmin(admin.ModelAdmin):
 
@@ -60,21 +29,12 @@ class ChannelAdmin(admin.ModelAdmin):
         (None,  {'fields': ('ch_name', 'user', 'bg_img', 'brief', 'intro')}),
     )
 
-    # formfield_overrides = {
-    #     'user': {'widget': GenericContentTypeSelect},
-    # }
-
     def bg_preview(self, obj):
         if obj.bg_img:
             return '<img src="%s" style="height: 50px; width: auto">' % (obj.bg_img.url)
         else:
             "no image"
 
-    # def uploaded_bg_preview(self):
-    #     return '<img src="/media/%s" width="100" height="100" />' % (self.photo)
-    #         image_thumb.allow_tags = True
-    #
-    #
     bg_preview.allow_tags = True
     bg_preview.short_description = "배경화면"
 
@@ -112,4 +72,5 @@ admin_root.register(SocialToken, SocialTokenAdmin)
 admin_root.register(SocialAccount, SocialAccountAdmin)
 admin_root.register(Site, SiteAdmin)
 admin_root.register(Group, GroupAdmin)
+admin_root.register(User, UserAdmin)
 

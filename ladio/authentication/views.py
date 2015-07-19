@@ -1,4 +1,3 @@
-import json
 from allauth.socialaccount.providers.facebook.views import FacebookOAuth2Adapter
 from rest_auth.registration.views import SocialLogin
 from rest_framework import viewsets, permissions, status, views
@@ -6,9 +5,8 @@ from rest_framework.response import Response
 
 from django.contrib.auth import get_user_model, authenticate, login, logout
 
-from main.auth.serializers import UserSerializer
-from main.auth.permissions import IsUserOwner
-
+from .serializers import UserSerializer
+from .permissions import IsUserOwner
 
 User = get_user_model()
 

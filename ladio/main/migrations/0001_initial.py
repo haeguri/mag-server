@@ -9,48 +9,42 @@ from django.conf import settings
 class Migration(migrations.Migration):
 
     dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='User',
-            fields=[
-                ('id', models.AutoField(verbose_name='ID', serialize=False, primary_key=True, auto_created=True)),
-                ('password', models.CharField(verbose_name='password', max_length=128)),
-                ('last_login', models.DateTimeField(null=True, verbose_name='last login', blank=True)),
-                ('email', models.EmailField(unique=True, verbose_name='이메일 주소', max_length=255)),
-                ('nickname', models.CharField(unique=True, verbose_name='별명', max_length=20)),
-                ('date_joined', models.DateTimeField(verbose_name='가입일', auto_now_add=True)),
-                ('profile_img', models.ImageField(verbose_name='프로필 이미지', blank=True, upload_to=main.models.User.get_upload_path)),
-                ('is_active', models.BooleanField(default=True)),
-                ('is_admin', models.BooleanField(verbose_name='관리자', default=False)),
-            ],
-            options={
-                'abstract': False,
-            },
-        ),
-        migrations.CreateModel(
             name='Channel',
             fields=[
-                ('id', models.AutoField(verbose_name='ID', serialize=False, primary_key=True, auto_created=True)),
-                ('ch_name', models.CharField(verbose_name='채널 이름', max_length=10)),
-                ('bg_img', models.ImageField(verbose_name='채널 배경화면', upload_to=main.models.Channel.get_upload_path)),
-                ('brief', models.CharField(verbose_name='10글자 소개', max_length=10)),
-                ('intro', models.TextField(verbose_name='자기소개', max_length=500)),
-                ('created', models.DateTimeField(verbose_name='생성일', auto_now_add=True)),
-                ('user', models.ForeignKey(verbose_name='채널을 만드는 사람', to=settings.AUTH_USER_MODEL)),
+                ('id', models.AutoField(serialize=False, primary_key=True, verbose_name='ID', auto_created=True)),
+                ('ch_name', models.CharField(help_text='채널의 이름은 무엇인가요?', max_length=10, verbose_name='채널 이름')),
+                ('bg_img', models.ImageField(help_text='채널의 상세한 정보를 보여주는 페이지에서 배경으로 쓰일 이미지 입니다.', upload_to=main.models.Channel.get_upload_path, verbose_name='채널 배경화면')),
+                ('brief', models.CharField(help_text='이 채널을 대표할 짧은 문구를 10글자 이내로 적어주세요.', max_length=10, verbose_name='10글자 소개')),
+                ('intro', models.TextField(help_text='채널에 대한 소개를 해주세요.', max_length=500, verbose_name='자기소개')),
+                ('created', models.DateTimeField(auto_now_add=True, verbose_name='생성일')),
+                ('user', models.ForeignKey(to=settings.AUTH_USER_MODEL, verbose_name='채널 발행자')),
             ],
+            options={
+                'verbose_name_plural': '채널 목록',
+                'ordering': ['-created'],
+                'verbose_name': '채널',
+            },
         ),
         migrations.CreateModel(
             name='Content',
             fields=[
-                ('id', models.AutoField(verbose_name='ID', serialize=False, primary_key=True, auto_created=True)),
-                ('title', models.CharField(verbose_name='컨텐츠 제목', max_length=20)),
-                ('thumb_img', models.ImageField(verbose_name='썸네일 이미지', upload_to=main.models.Content.get_upload_path)),
-                ('body', models.TextField(verbose_name='본문')),
+                ('id', models.AutoField(serialize=False, primary_key=True, verbose_name='ID', auto_created=True)),
+                ('title', models.CharField(max_length=20, verbose_name='컨텐츠 제목')),
+                ('thumb_img', models.ImageField(help_text='컨텐츠 목록에서 사용자에게 보여질 이미지 입니다.', upload_to=main.models.Content.get_upload_path, verbose_name='썸네일 이미지')),
+                ('body', models.TextField(help_text='컨텐츠 내용입니다.', verbose_name='본문')),
                 ('created', models.DateTimeField(auto_now_add=True)),
                 ('updated', models.DateTimeField(auto_now=True)),
-                ('channel', models.ForeignKey(verbose_name='발행 채널', to='main.Channel')),
+                ('channel', models.ForeignKey(to='main.Channel', verbose_name='발행 채널')),
             ],
+            options={
+                'verbose_name_plural': '컨텐츠 목록',
+                'ordering': ['-created'],
+                'verbose_name': '컨텐츠',
+            },
         ),
     ]
