@@ -33,8 +33,6 @@ class ContentViewSet(viewsets.ModelViewSet):
         # print("Request", repr(self.request.META))
         print("self.request.user", self.request.user)
         print("self.request.auth", self.request.auth)
-
-        #print("Request", repr(self.request.META))
         return Content.objects.all()
 
 
@@ -42,7 +40,6 @@ class ContentViewSet(viewsets.ModelViewSet):
     def recent_contents(self, request):
         recent_contents = Content.objects.all().order_by('-created')
         serializer = self.get_serializer(recent_contents, many=True)
-        # logging.debug("Debug Test")
 
         return Response(serializer.data)
 

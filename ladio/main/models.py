@@ -33,17 +33,21 @@ class Channel(models.Model):
 
 class Content(models.Model):
     channel = models.ForeignKey(Channel, verbose_name="발행 채널", blank=False, null=False)
-    title = models.CharField("컨텐츠 제목", max_length=20)
+    title = models.CharField("컨텐츠 제목", max_length=20, blank=False)
 
     def get_upload_path(instance, filename):
         path = os.path.join("users/%s/channel_%s/contents/%s/%s" %
-                            (instance.channel.user.nickname, instance.channel.ch_name, datetime.now().strftime('%Y%m%d'), instance.title), "[thumbnail]" + filename)
+                            (instance.channel.user.nickname,
+                             instance.channel.ch_name,
+                             datetime.now().strftime('%Y%m%d'),
+                             instance.title),
+                            "[thumbnail]" + filename)
         return path
 
     thumb_img = models.ImageField("썸네일 이미지",upload_to=get_upload_path
-                                  , help_text="컨텐츠 목록에서 사용자에게 보여질 이미지 입니다.")
-    body = models.TextField("본문", blank=False
-                                  , help_text="컨텐츠 내용입니다.")
+                                  , help_text="컨텐츠 목록에서 사용자에게 보여질 이미지 입니다.",
+                                  blank=False )
+    body = models.TextField("본문", help_text="컨텐츠 내용입니다.", blank=False )
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
@@ -51,7 +55,6 @@ class Content(models.Model):
         verbose_name = "컨텐츠"
         verbose_name_plural = "컨텐츠 목록"
         ordering = ['-created']
-
 
     def __str__(self):
         return self.title

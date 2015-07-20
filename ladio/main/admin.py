@@ -6,7 +6,6 @@ from django.contrib.auth import get_user_model
 from main.models import Content, Channel
 from authentication.admin import UserAdmin
 from authentication.forms import SuperuserAuthenticationForm
-from main.forms import ChannelAdminForm
 from django_summernote.admin import SummernoteModelAdmin
 
 User = get_user_model()
@@ -38,17 +37,18 @@ class ChannelAdmin(admin.ModelAdmin):
     bg_preview.allow_tags = True
     bg_preview.short_description = "배경화면"
 
-
-
 @admin.register(Content, site=admin_root)
 class ContentAdmin(SummernoteModelAdmin):
-    form = ChannelAdminForm
+
     list_display = ['thumb_preview', 'channel', 'title', 'created', 'updated']
 
     fieldsets = (
-        (None,  {'fields': ('channel', 'title', 'thumb_img', 'body', )}),
+        (
+            None , {
+            'fields' : ('channel', 'title', 'thumb_img', 'body', )
+            }
+        ),
     )
-
 
     def thumb_preview(self, obj):
         if obj.thumb_img:

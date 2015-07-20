@@ -1,6 +1,9 @@
-angular.module('ladio.controllers')
+(function() {
+    'use strict';
 
-.controller('ContentDetailController', function(
+    angular.module('ladio.controllers')
+
+    .controller('ContentDetailController', function(
         $scope,
         $http,
         $sce,
@@ -16,6 +19,7 @@ angular.module('ladio.controllers')
         }, function(data) {
             $scope.content_detail.content = data;
             $scope.content_detail.content.body = $sce.trustAsHtml(data.body);
+
             $scope.master.header_title = data.title;
             $scope.master.header_subtitle = data.created;
             $scope.master.header_image = {"background-image":"url('" + $scope.content_detail.content.thumb_img + "')"};
@@ -24,3 +28,4 @@ angular.module('ladio.controllers')
         });
 
     });
+})();

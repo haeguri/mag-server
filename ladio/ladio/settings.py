@@ -30,7 +30,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = (
-    'django_admin_bootstrapped',
+    # 'django_admin_bootstrapped',
     'django.contrib.admin.apps.SimpleAdminConfig',
     # 'django.contrib.admin',
     'django.contrib.auth',
@@ -149,14 +149,6 @@ if 'RDS_DB_NAME' in os.environ:
             'PASSWORD': os.environ['RDS_PASSWORD'],
             'HOST': os.environ['RDS_HOSTNAME'],
             'PORT': os.environ['RDS_PORT'],
-        }
-    }
-
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
 

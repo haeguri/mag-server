@@ -15,11 +15,12 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
 
     def get_permissions(self):
+        # 위험하지 않은 HTTP method('GET', 'HEAD', 'OPTION')는 모두 허용한다.
         if self.request.method in permissions.SAFE_METHODS:
             return (permissions.AllowAny(),)
 
-        # 가입하는 경우, 익명 유저도 가입할 수 있도록.
         if self.request.method == 'POST':
+        # 회원가입은 POST 요청으로 이뤄지므로 허용한다.
             return (permissions.AllowAny(),)
 
         return (permissions.IsAuthenticated(), IsUserOwner(),)
@@ -41,7 +42,6 @@ class UserViewSet(viewsets.ModelViewSet):
 
 class LoginView(views.APIView):
     def post(self, request, format=None):
-        print("post")
         user = authenticate(email=request.data['email'], password=request.data['password'])
 
         if user is not None:
