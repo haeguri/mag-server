@@ -16,7 +16,8 @@ class Channel(models.Model):
     ch_name = models.CharField("채널 이름", max_length=10, blank=False
                                         , help_text="채널의 이름은 무엇인가요?")
     bg_img = models.ImageField("채널 배경화면", blank=False, upload_to=get_upload_path
-                                        , help_text="채널의 상세한 정보를 보여주는 페이지에서 배경으로 쓰일 이미지 입니다.")
+                                        , help_text="채널의 상세한 정보를 보여주는 페이지에서 배경으로 쓰일 이미지 입니다."
+                                        , max_length=500)
     brief = models.CharField("10글자 소개", max_length=10, blank=False
                                         , help_text="이 채널을 대표할 짧은 문구를 10글자 이내로 적어주세요.")
     intro = models.TextField("자기소개", max_length=500, blank=False\
@@ -46,7 +47,8 @@ class Content(models.Model):
 
     thumb_img = models.ImageField("썸네일 이미지",upload_to=get_upload_path
                                   , help_text="컨텐츠 목록에서 사용자에게 보여질 이미지 입니다.",
-                                  blank=False )
+                                  blank=False,
+                                  max_length=500)
     body = models.TextField("본문", help_text="컨텐츠 내용입니다.", blank=False )
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)

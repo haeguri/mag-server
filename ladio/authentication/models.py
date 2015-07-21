@@ -56,7 +56,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         path = os.path.join("users/%s/[profile]" % instance.nickname, filename)
         return path
 
-    profile_img = models.ImageField('프로필 이미지', upload_to=get_upload_path, blank=True)
+    profile_img = models.ImageField('프로필 이미지', upload_to=get_upload_path, blank=True, max_length=500)
 
     is_active   = models.BooleanField(default=True)
 
