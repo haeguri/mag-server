@@ -39,7 +39,6 @@ class ChannelAdmin(admin.ModelAdmin):
 
 @admin.register(Content, site=admin_root)
 class ContentAdmin(SummernoteModelAdmin):
-
     list_display = ['thumb_preview', 'channel', 'title', 'created', 'updated']
 
     fieldsets = (
@@ -66,6 +65,8 @@ from django.contrib.sites.models import Site
 from django.contrib.sites.admin import SiteAdmin
 from django.contrib.auth.models import Group
 from django.contrib.auth.admin import GroupAdmin
+
+print("before register")
 
 admin_root.register(SocialApp, SocialAppAdmin)
 admin_root.register(SocialToken, SocialTokenAdmin)

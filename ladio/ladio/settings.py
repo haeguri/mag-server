@@ -30,7 +30,9 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = (
-    # 'django_admin_bootstrapped',
+    # 'material',
+    # 'material.admin',
+    'django_admin_bootstrapped',
     'django.contrib.admin.apps.SimpleAdminConfig',
     # 'django.contrib.admin',
     'django.contrib.auth',
@@ -43,6 +45,7 @@ INSTALLED_APPS = (
     'rest_framework.authtoken',
     'rest_auth',
     'authentication',
+    'django_summernote',
     'main',
     'allauth',
     'allauth.account',
@@ -52,7 +55,6 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.facebook',
     'corsheaders',
     'storages',
-    'django_summernote',
     'debug_toolbar',
 )
 
@@ -90,7 +92,7 @@ ROOT_URLCONF = 'ladio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

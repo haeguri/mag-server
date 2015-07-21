@@ -23,6 +23,7 @@ admin_staff = AdminStaffSite(name="admin_staff")
 class ContentAdmin(SummernoteModelAdmin):
 
     list_display = ['thumb_preview', 'channel', 'title', 'created', 'updated']
+
     fieldsets = (
         (None,  {'fields': ('channel', 'title', 'thumb_img', 'body', )}),
     )
