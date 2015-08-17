@@ -66,8 +66,6 @@ from django.contrib.sites.admin import SiteAdmin
 from django.contrib.auth.models import Group
 from django.contrib.auth.admin import GroupAdmin
 
-print("before register")
-
 admin_root.register(SocialApp, SocialAppAdmin)
 admin_root.register(SocialToken, SocialTokenAdmin)
 admin_root.register(SocialAccount, SocialAccountAdmin)

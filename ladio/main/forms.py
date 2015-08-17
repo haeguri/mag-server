@@ -5,6 +5,7 @@ from main.models import Channel, Content
 
 User = get_user_model()
 
+
 class ChannelAdminForm(forms.ModelForm):
     user = forms.ModelChoiceField(queryset=User.objects.all(), initial=0)
 
